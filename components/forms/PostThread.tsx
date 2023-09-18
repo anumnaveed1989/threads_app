@@ -83,9 +83,9 @@ function PostThread({userId} : {userId: string}) {
 
                     <Button 
                     type="submit"
-                    className="bg-primary-500"
+                    className="bg-yellow-500"
                     >
-                        Post Thread
+                        Buzz
                     </Button>
 
                 </form>

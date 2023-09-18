@@ -11,8 +11,8 @@ import Topbar from '@/components/shared/Topbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "threads",
-  description: "A Next.js 13 Meta Threads Application"
+  title: "BuzzBlend",
+  description: "A Next.js 13 Social Engaging Application"
 }
 
 export default function RootLayout({

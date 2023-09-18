@@ -17,13 +17,13 @@ function Topbar(){
             <Link href="/" className="flex 
             items-center gap-4"
             >
-                <Image src="/assets/logo.svg"
+                <Image src="/assets/logo.png"
                 alt="logo"
                 height={28}
                 width={28}
                 />
                 <p className="text-heading3-bold
-                 text-light-1 max-xs:hidden">Threads</p>
+                 text-light-1 max-xs:hidden">BuzzBlend</p>
 
                  <div className="flex items-center gap-1">
                     <div className="block md:hidden">
@@ -40,22 +40,20 @@ function Topbar(){
                             </SignOutButton>
                         </SignedIn>
                     </div>
-
-                    <OrganizationSwitcher 
-                    appearance={{
-                        baseTheme: dark,
-                        elements: {
-                            organizationswitcherTrigger: 
-                            "px-4 py-2"
-                        }
-                    }}
-                    />
-
                  </div>
-
             </Link>
+            <div className="flex items-end">
+                <OrganizationSwitcher 
+                    appearance={{
+                    baseTheme: dark,
+                      elements: {
+                      organizationswitcherTrigger: 
+                      "px-4 py-2"
+                      }
+                    }}
+                />
+            </div>
         </nav>
     )
 }
-
 export default Topbar;
