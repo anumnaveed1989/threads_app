@@ -21,10 +21,9 @@ function LeftSidebar() {
                     const isActive = (pathname.includes(link.route) 
                     && link.route.length > 1) || pathname === link.route;
 
-                    if(link.route === '/profile') link.route = `${link.route}/${userId}`
+                    if(link.route === '/profile') link.route = `${link.route}/${userId}`;
 
                     return (
-
                         <Link
                         href={link.route}
                         key={link.label}
@@ -36,10 +35,9 @@ function LeftSidebar() {
                             height={24}
                             width={24}
                             />
-
                             <p className="text-light-1 max-lg:hidden">{link.label}</p>
                         </Link>
-                    )}
+                    );}
                 )}
             </div>
 
@@ -62,7 +60,7 @@ function LeftSidebar() {
             </div>
         </section>
         
-    )
-}
+    );
+};
 
 export default LeftSidebar;

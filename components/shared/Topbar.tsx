@@ -19,8 +19,8 @@ function Topbar(){
             >
                 <Image src="/assets/logo.png"
                 alt="logo"
-                height={28}
-                width={28}
+                height={35}
+                width={35}
                 />
                 <p className="text-heading3-bold
                  text-light-1 max-xs:hidden">BuzzBlend</p>
